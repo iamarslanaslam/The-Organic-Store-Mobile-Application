@@ -1,0 +1,92 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#009688"
+
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvAddPaymentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Payment"
+        android:layout_marginTop="60dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPayerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColorHint="@color/black"
+        android:hint="Payer ID" />
+
+    <EditText
+        android:id="@+id/etReceiverCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:hint="Receiver Company" />
+
+    <EditText
+        android:id="@+id/etCourier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:hint="Courier" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:inputType="numberDecimal"
+        android:hint="Amount" />
+
+    <EditText
+        android:id="@+id/etPaymentMethod"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:layout_height="wrap_content"
+        android:hint="Payment Method" />
+
+    <EditText
+        android:id="@+id/etStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:hint="Status (e.g., Completed, Pending)" />
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="20dp"
+
+        android:layout_height="wrap_content"
+        android:hint="Notes" />
+
+    <Button
+        android:id="@+id/btnAddPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="40dp"
+        android:textColor="#669900"
+
+        android:text="Add Payment" />
+</LinearLayout>
